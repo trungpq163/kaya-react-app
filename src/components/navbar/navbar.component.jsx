@@ -1,10 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import Logo from "../../assets/logo.png";
-
-// import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
 import { signOut } from "../../firebase/firebase.utils";
